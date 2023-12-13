@@ -95,6 +95,11 @@ header nav.menu-desktop ul li {
     font-size: 40px;
 }
 
+.btn-abrir-menu{
+    position: fixed;
+    margin-left: 80%;
+}
+
 .menu-mobile {
     background-color: rgb(4, 22, 24);
     height: 100vh;
@@ -351,8 +356,8 @@ form input,
 form textarea {
     width: 100%;
     background-color: rgba(58, 58, 58, 0.137);
-    border: 0;
-    outline: 0;
+    border: none;
+    outline: none;
     padding: 20px 15px;
     border-radius: 15px;
     color: aliceblue;
@@ -401,6 +406,7 @@ footer .line-footer {
 footer .line-footer p i {
     color: aliceblue;
     font-size: 22px;
+    margin-right: 10px;
 }
 
 footer .line-footer p a {
