@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <!-- FIM BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="java-script/menu.js" defer></script>
+
     <title>Portifolio</title>
 </head>
 <body>
@@ -38,6 +41,22 @@
                     <button>Contato</button>
                 </a>
             </div>
+            <div class="btn-abrir-menu" id="btn-menu"><i class="bi bi-list-nested"></i></div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar"><i class="bi bi-x"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Especialidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
         </div><!--Interface-->
 
     </header>
@@ -48,8 +67,8 @@
                 <div class="flex">
                     <div class="txt-topo-site">
                         <h1>O MAIS BONITO, ME CONTRATE NÃO TERA AREPENDIMENTOS <span>.</span></h1>
-                        <p>faço de tudo sou o melhor experiencia desde quando me entendo por gente, a melhor escolha para todos os tipos de problemas o sonho de qualquer patrão.In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
-                        
+                        <p>Estudante de Engenharia da Computação no sétimo período, dedicado e entusiasta de tecnologia, com habilidades sólidas em modelagem 3D, desenvolvimento de jogos na Unity e design de sites em HTML. Experiente em programação em Python, Java e C#, 
+                        além de expertise em automação utilizando Arduino e gerenciamento de banco de dados.
                         </p>
                         <div class="btn-contato">
                             <a href="#">
@@ -59,7 +78,7 @@
                     </div><!--txt-topo-site-->
 
                     <div class="img-topo-site">
-                        <img src="images/Eu.jpeg" alt="">
+                        <img src="images/FotoAFX.png" alt="">
                     </div><!--img-topo-site-->
                 </div><!--flex-->
             </div><!-- interface -->
@@ -72,8 +91,9 @@
                         <i class="bi bi-box"></i>
                         <h3>MODELADOR 3D</h3>
                         <p>
-                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
-                        </p>
+                            Sou um modelador 3D apaixonado e experiente, com mais de 3 anos de dedicação ao universo da criação tridimensional. Especializado em animação, escultura, retopologia e texturização, destaco-me pela habilidade sólida e compreensão profunda do processo de criação de 
+                            modelos 3D envolventes e visualmente impressionantes. Utilizo o Blender como minha ferramenta principal, evidenciando uma perícia versátil em diversas áreas do design tridimensional.
+                            
 
                     </div><!--especialidades-box"-->
 
@@ -81,8 +101,8 @@
                         <i class="bi bi-controller"></i>
                         <h3>GAME DEV</h3>
                         <p>
-                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
-                        </p>
+                            Sou um desenvolvedor de jogos apaixonado e experiente, com mais de 5 anos de dedicação à criação de experiências interativas envolventes na Unity utilizando a linguagem C#. Minha expertise abrange tanto jogos 2D quanto 3D, 
+                            com uma sólida compreensão do ciclo de vida do desenvolvimento de jogos, desde a concepção até a implementação e otimização final.
 
                     </div><!--especialidades-box"-->
 
@@ -90,7 +110,8 @@
                         <i class="bi bi-code-slash"></i>
                         <h3>WEB SITES</h3>
                         <p>
-                            In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
+                            Sou um desenvolvedor de sites dedicado e experiente, com um profundo conhecimento técnico e mais de 2 anos de prática na criação de soluções web inovadoras e eficientes. 
+                            Minha habilidade abrange desde a construção de interfaces intuitivas e atraentes até a implementação de funcionalidades robustas, garantindo uma experiência de usuário excepcional.
                         </p>
 
                     </div><!--especialidades-box"-->
@@ -101,17 +122,19 @@
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
-                        <img src="images/Eu.jpeg" alt="">
+                        <img src="images/Foto.png" alt="">
                     </div>
 
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU MARCOS CORREA</span></h2>
-                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-                        <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                        <p> um prazer me apresentar a você. Sou um entusiasta apaixonado por Engenharia da Computação, atualmente no sétimo período. Com mais de 5 anos de experiência como desenvolvedor de jogos na Unity, destaco-me por minha habilidade distintiva na programação em C#. Essa jornada fascinante no desenvolvimento de jogos proporcionou-me uma compreensão sólida do 
+                            ciclo completo de criação, desde a concepção até a implementação, proporcionando-me a oportunidade de aprimorar minhas habilidades em modelagem 3D, animação, escultura e texturização.</p>
+                        <p>Estou disponível para colaborações e trazer uma abordagem entusiasmada e comprometida a projetos que busquem não apenas qualidade técnica, mas também 
+                        uma perspectiva única e envolvente. Estou animado com a oportunidade de contribuir positivamente e discutir como minhas habilidades podem complementar seus projetos.</p>
                         
                         <div class="btn-social">
-                            <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                            <a href="#"><button><i class="bi bi-twitter"></i></button></i></a>
+                            <a href="https://www.instagram.com/ace3dstudios/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://twitter.com/AceStudios07"><button><i class="bi bi-twitter"></i></button></i></a>
                             <a href="#"><button><i class="bi bi-linkedin"></i></button></i></a>
                         </div><!--btn-social-->
                     </div>
@@ -126,8 +149,8 @@
                     <div class="img-port" style="background-image: url(images/Portifolio.png);">
                         <div class="overlay">Sketchfab</div>
                     </div>
-                    <div class="img-port" style="background-image: url(images/Portifolio.png);">
-                        <div class="overlay">Sketchfab</div>
+                    <div class="img-port" style="background-image: url(images/ArtStation.png);">
+                        <div class="overlay">ArtStation</div>
                     </div>
                     <div class="img-port" style="background-image: url(images/Portifolio.png);">
                         <div class="overlay">Sketchfab</div>
@@ -151,6 +174,26 @@
         </section><!--formulario-->
 
     </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/Logo.png" alt="Logo">
+                    </div>
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"><button><i class="bi bi-twitter"></i></button></i></a>
+                        <a href="#"><button><i class="bi bi-linkedin"></i></button></i></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i><a href="mailto:marcoscorreanunes@hotmail.com">marcoscorreanunes@hotmail.com</a></p>
+            </div><!--line-footer-->
+        </div>
+    </footer>
 
 </body>
 </html>
