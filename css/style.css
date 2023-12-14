@@ -236,9 +236,6 @@ section.especialidades .flex {
     font-size: 28px;
     margin: 15px 0px;
 }
-.especialidades .especialidades-box p {
-    text-align: justify;
-}
 
 /* SOBRE */
 
@@ -305,7 +302,7 @@ section.portifolio .flex .img-port {
     height: 460px;
     background-size: cover;
     background-position: 100% 0%;
-    transition: 1s;
+    transition: 5s;
     cursor: pointer;
     border-radius: 40px;
     position: relative;
