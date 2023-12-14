@@ -236,6 +236,9 @@ section.especialidades .flex {
     font-size: 28px;
     margin: 15px 0px;
 }
+.especialidades .especialidades-box p {
+    text-align: justify;
+}
 
 /* SOBRE */
 
